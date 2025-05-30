@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]  # Uvicorn est le serveur ASGI pour FastAPI, [standard] inclut des dépendances utiles
+python-multipart   # Nécessaire pour gérer les UploadFile et les formulaires dans FastAPI
+opencv-python      # Pour cv2
+Pillow             # Pour PIL (Python Imaging Library)
+facenet-pytorch    # Pour MTCNN et InceptionResnetV1
+scikit-learn       # Pour cosine_similarity
+pymongo            # Pour MongoClient
